@@ -1,12 +1,8 @@
-def linha(tam=42):
-    return '-' * tam
+def cabecalho(txt, tam=42):
+    print('-' * tam)
+    print(txt.center(tam))
+    print('-' * tam)
 
 
-def cabecalho(txt):
-    print(linha())
-    print('txt')
-    print(linha())
-
-
-cabecalho('Hello World')
+cabecalho('HELLO WORLD', 104)
 
